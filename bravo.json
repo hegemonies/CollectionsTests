@@ -1,6 +1,7 @@
 {
     "config": {
-      "compiler": "gradle"
+      "compiler": "gradle",
+      "targerFile": ".jar"
     },
     "steps": [
       {
@@ -10,10 +11,6 @@
       {
         "title": "Step2",
         "cmd": "gradle run"
-      },
-      {
-        "title": "Step3",
-        "cmd": "gradle clean"
       }
     ]
   }
